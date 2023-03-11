@@ -11,7 +11,7 @@ public static class Kata
 {
 	public static string Order(string words)
 	{
-		if (words == "")
+		if (string.IsNullOrEmpty(words))
 		{
 			return "";
 		}
